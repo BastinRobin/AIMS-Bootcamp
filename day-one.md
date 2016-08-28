@@ -44,70 +44,75 @@ PHP developers develop programs, applications, and web sites using the dynamic s
 
 ## Primitives, Operations and Expressions Output
 PHP supports eight primitive types
-- Boolean eg: (0 - 1, Y - N)
 
-     <?php
-      $x = true;
-      $y = false;
-     ?>
-
-- Integer eg: (0 - 9)
+### Boolean eg: (0 - 1, Y - N)
 
     <?php
-        $x = 5985;
-        var_dump($x);
+     $x = true;
+     $y = false;
     ?>
 
-- Float eg: (0.0 - 0.9)
+### Integer eg: (0 - 9)
 
     <?php
-        $x = 10.365;
-        var_dump($x);
+     $x = 1000;
+     var_dump($x);
     ?>
 
-- String eg: ("Hello world")
+
+### Float eg: (0.0 - 0.9)
 
     <?php
-        $x = "Hello world!";
-        $y = 'Hello world!';
-
-        echo $x;
-        echo "<br>";
-        echo $y;
-      ?>
-
-- Array eg: array(1, 2, 3, 4)
-
-    <?php
-        $cars = array("Volvo","BMW","Toyota");
-        var_dump($cars);
+     $x = 10.365;
+     var_dump($x);
     ?>
 
-- Object
+
+### String eg: ("Hello world")
 
     <?php
-        class Car {
-            function Car() {
-                $this->model = "VW";
-            }
-        }
+     $x = "Hello";
+     $y = "World";
+     echo $x;
+     echo '<br>';
+     echo $y;
+    ?>
 
+
+### Array eg: array(1, 2, 3, 4)
+
+    <?php
+     $cars = array("Volvo","BMW","Toyota");
+     var_dump($cars);
+    ?>
+
+
+### Object
+
+    <?php
+      class Car {
+          function Car() {
+            $this->model = "VW";
+          }
+      }
+    
         // create an object
         $herbie = new Car();
-
+    
         // show object properties
         echo $herbie->model;
     ?>
 
-- NULL
+### NULL
 
-      <?php
+    <?php
         $x = "Hello world!";
         $x = null;
         var_dump($x);
-      ?>
+    ?>
 
-- Resource
+
+### Resource
 
       The special resource type is not an actual data type. It is the storing of a reference to functions and resources external to PHP.
       A common example of using the resource data type is a database call.
