@@ -38,32 +38,36 @@ PHP developers develop programs, applications, and web sites using the dynamic s
 
 - PHP Comments are of two types Single and Multiple Line
 - Single line: //
-- Multiple line: /* ... */
+- Multiple line: /* ...
 - PHP statements terminated with a (;)
 
 
 ## Primitives, Operations and Expressions Output
 PHP supports eight primitive types
 - Boolean eg: (0 - 1, Y - N)
-      <?php
+
+     <?php
       $x = true;
       $y = false;
-      ?>
+     ?>
+
 - Integer eg: (0 - 9)
 
-      <?php
+    <?php
         $x = 5985;
         var_dump($x);
-      ?>
+    ?>
+
 - Float eg: (0.0 - 0.9)
 
-      <?php
+    <?php
         $x = 10.365;
         var_dump($x);
-      ?>
+    ?>
+
 - String eg: ("Hello world")
 
-      <?php
+    <?php
         $x = "Hello world!";
         $y = 'Hello world!';
 
@@ -71,15 +75,17 @@ PHP supports eight primitive types
         echo "<br>";
         echo $y;
       ?>
+
 - Array eg: array(1, 2, 3, 4)
 
-      <?php
+    <?php
         $cars = array("Volvo","BMW","Toyota");
         var_dump($cars);
-      ?>
+    ?>
+
 - Object
 
-      <?php
+    <?php
         class Car {
             function Car() {
                 $this->model = "VW";
@@ -91,7 +97,7 @@ PHP supports eight primitive types
 
         // show object properties
         echo $herbie->model;
-      ?>
+    ?>
 
 - NULL
 
