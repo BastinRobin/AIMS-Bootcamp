@@ -116,3 +116,35 @@ PHP supports eight primitive types
 
       The special resource type is not an actual data type. It is the storing of a reference to functions and resources external to PHP.
       A common example of using the resource data type is a database call.
+
+
+## Operators
+
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Increment/Decrement operators
+- Logical operators
+- String operators
+- Array operators
+
+### Arithmetic Operators
+![Alt text](arithmetic.png)
+
+### Assignment Operators
+![Alt text](assignment.png)
+
+### Comparison Operators
+![Alt text](comparison.png)
+
+### Increment/Decrement operators
+![Alt text](inc-dec.png)
+
+### Logical Operators
+![Alt text](logical.png)
+
+### String Operators
+![Alt text](string.png)
+
+### Array Operators
+![Alt text](array.png)
