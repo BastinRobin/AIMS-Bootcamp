@@ -137,7 +137,7 @@ PHP supports eight primitive types
 ### Comparison Operators
 ![Alt text](comparison.png)
 
-### Increment/Decrement operators
+### Incrembent/Decrement operators
 ![Alt text](inc-dec.png)
 
 ### Logical Operators
