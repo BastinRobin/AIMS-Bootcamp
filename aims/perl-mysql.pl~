@@ -10,7 +10,7 @@ $db ="ploudio";
 $user = "root";
  
 ## mysql database password
-$pass = "testers.w3";
+$pass = "secret";
  
 ## user hostname : This should be "localhost" but it can be diffrent too
 $host="localhost";
